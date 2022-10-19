@@ -18,6 +18,19 @@
     justify-content: space-between;
 }
 
+.box1 { background:#a0c795;}
+.box2 { background:#384d2f;}
+.box3 { background:#a0c795;}
+.box4 { background:#384d2f;}
+.box5 { background:#7c5f45;}
+.box6 { background:#ffaf64;}
+.box7 { background:#674322;}
+.box8 { background:#ae5400;}
+.box9 { background:#ffaf64;}
+.box10 { background:#ab8c77;}
+.box11 { background:#332a23;}
+
+
 @media screen and (max-width: 640px) {
     [class^="box"] {
         width: 100%;
