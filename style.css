@@ -20,12 +20,16 @@
     margin-left: 3px;
     margin-right: 3px;
 }
+
+a:link {
+    text-decoration: none;
+}
+
 .navigation {
     color: aliceblue;
     display: flex;
     justify-content: space-around;
     background-color: grey;
-    margin-top: 0px;
 }
 
 .box1 {
