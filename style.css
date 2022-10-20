@@ -1,38 +1,29 @@
-* { box-sizing: border-box; }
-
-[class^="box"] {
-    color:white;
-    font-size: 100px;
+[class="box"]{
+    color: whitesmoke;
+    font-size: 16px;
     text-align: center;
-    text-shadow:4px 4px 0 rgba(0,0,0,0.1);
-    padding:10px;
 }
 
-.flex-container {
-    border:10px solid goldenrod;
-}
+.box1 { background:#1abc9c;}
+.box2 { background:#3498db;}
+.box3 { background:#9b59b6;}
+.box4 { background:#34495e;}
+.box5 { background:#f1c40f;}
+.box6 { background:#e67e22;}
+.box7 { background:#e74c3c;}
+.box8 { background:#bdc3c7;}
+.box9 { background:#2ecc71;}
+.box10 { background:#16a085;}
+.box11 {background-color: darkslategrey;}
 
-.flex-container {
+.navigation {
+    color: aliceblue;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
 
-.box1 { background:#a0c795;}
-.box2 { background:#384d2f;}
-.box3 { background:#a0c795;}
-.box4 { background:#384d2f;}
-.box5 { background:#7c5f45;}
-.box6 { background:#ffaf64;}
-.box7 { background:#674322;}
-.box8 { background:#ae5400;}
-.box9 { background:#ffaf64;}
-.box10 { background:#ab8c77;}
-.box11 { background:#332a23;}
-
-
-@media screen and (max-width: 640px) {
-    [class^="box"] {
-        width: 100%;
-     }
+.box6,
+.box7 {
+    width: 48%;
 }
