@@ -15,15 +15,21 @@
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 .box11 {background-color: darkslategrey;}
-
+* {
+    margin: 12px; 
+    margin-left: 3px;
+    margin-right: 3px;
+}
 .navigation {
     color: aliceblue;
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    background-color: grey;
+    margin-top: 0px;
 }
 
-.box6,
-.box7 {
-    width: 48%;
+.box1 {
+   height: 75vh;
+   margin-top: 0%;
 }
+
