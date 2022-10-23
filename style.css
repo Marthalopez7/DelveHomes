@@ -16,6 +16,9 @@
 .box10 { background:#16a085;}
 .box11 {background-color: darkslategrey;}
 
+* {
+    margin: 0%;
+}
 
 a:link {
     text-decoration: none;
@@ -27,16 +30,15 @@ a:link {
     display: flex;
     justify-content: space-around;
     background-color: grey;
-    margin-bottom: 5px;
 }
 
 .box1 {
    height: 75vh;
+   text-align: center;
 }
 
 .section {
     display: flex;
-    justify-content: space-around;
     width: 100%;
 }
 
@@ -47,6 +49,6 @@ a:link {
 
 .sectiontwo {
     display: flex;
-    justify-content: space-around;
     width: 100%;
 }
+
