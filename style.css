@@ -7,10 +7,6 @@
     padding:10px;
 }
 
-/* .flex-container {
-    border:10px solid goldenrod;
-} */
-
 .box1 { background:#a0c795;}
 .box2 { background:#384d2f;}
 .box3 { background:#a0c795;}
@@ -22,6 +18,63 @@
 .box9 { background:#ffaf64;}
 .box10 { background:#ab8c77;}
 .box11 { background:#332a23;}
+
+.box1 {
+   height: 75vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 15%;
+}
+
+.box2,
+.box3,
+.box4 {
+    width: 15%;   
+}
+
+.box5 {
+    height: 60vh;
+}
+
+.box6, 
+.box7 {
+    width: 49%;
+    height: 30vh;
+}
+
+.group1 {
+    padding-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4vh;
+}
+
+.box8 {
+    height: 40vh;
+}
+
+.box9, 
+.box10 {
+    width: 49%;
+    height: 30vh;
+}
+
+.group2 {
+    padding-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4vh;
+}
+
+.box11 {
+    height: 40vh;
+}
 
 .navigation {
     display: flex;
