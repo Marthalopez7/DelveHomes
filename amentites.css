@@ -1,3 +1,44 @@
+* {
+    color: black;
+}
 img {
     max-width: 100%;
+}
+
+header {
+    width: 100vw;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo {
+    width: 200px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 2rem;
+    transition: color 150ms ease-in-out;
+}
+
+nav ul a:hover {
+    color: dimgray;
+}
+
+.hero {
+    background-image: ;
 }
