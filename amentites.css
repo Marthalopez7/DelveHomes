@@ -1,25 +1,26 @@
-* {
-    color: black;
-}
+
 img {
     max-width: 100%;
 }
 
 header {
     width: 100vw;
-    background-color: #e2e2e2;
+    background-color: #592608;
     display: flex;
     justify-content: space-around;
 }
 
 header .logo {
     width: 200px;
+   mix-blend-mode: difference;
 }
 
 header nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
 }
 
 header nav ul {
@@ -33,12 +34,55 @@ nav ul a {
     text-decoration: none;
     padding: 2rem;
     transition: color 150ms ease-in-out;
+    color: black;
 }
 
 nav ul a:hover {
-    color: dimgray;
+    color: aliceblue;
 }
 
 .hero {
-    background-image: ;
+    background-image: url(images/honeycomb.jpg) ;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.hero-content {
+    color: black;
+    background-color: #e2e2e28e;
+    width: 40%;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1 {   
+    background-image: url(images/pexels-kris-lucas-2514103.jpg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+   
+    height: 20rem;
+}
+
+.box1,
+.box2 {
+    width: 50%;
+}
+
+.box2 :not(p) {
+    text-align: center;
+}
+
+footer {
+    background-image: conic-gradient(#26150b, #592608);
+    background-image: conic-gradient( right, #26150b 75%, #a65208);
 }
