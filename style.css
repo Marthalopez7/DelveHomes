@@ -15,15 +15,21 @@
     max-width: 100%;
 }
 
+/* .page-wrapper {
+    max-width: 95%;
+    margin: auto;
+} */
+
 header {
     width: 100vw;
-    background-color: #e2e2e2;
+    background-color: #592608;
     display: flex;
     justify-content: space-around;
 }
 
 header .logo {
     width: 200px;
+    mix-blend-mode: difference;
 }
 
 header nav {
@@ -41,7 +47,15 @@ header nav ul {
 
 header nav ul a {
     text-decoration: none;
-    
+    padding: 2rem;
+    color: white;
+    transition: color 200ms ease-in-out;
+    font-size: 1.1rem;
+}
+
+header nav ul a:hover {
+    color: lightblue;
+    background-color: #4a2613;
 }
 
 .hero {
@@ -61,6 +75,15 @@ header nav ul a {
     color: white;
 }
 
+.item02 {
+    
+}
+
+footer {
+    background-image: conic-gradient(#26150b, #592608);
+    background-image: conic-gradient( right, #26150b 75%, #a65208);
+    }
+    
 @media screen and (max-width: 640px) {
     [class^="box"] {
         width: 100%;
