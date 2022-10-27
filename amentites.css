@@ -1,0 +1,107 @@
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100vw;
+    background-color: #592608;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo {
+    width: 200px;
+   mix-blend-mode: difference;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 2rem;
+    transition: color 150ms ease-in-out;
+    color: aliceblue;
+}
+
+nav ul a:hover {
+    color: goldenrod;
+    background-color: #4a2613;
+}
+
+.hero {
+    background-image: url(images/rim.jpg) ;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    /* background-attachment: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    padding: 50px;
+}
+
+.hero-content {
+    color: #A65729;
+    background-color: #5919026f;
+    width: 40%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box1,
+.box2 {
+    margin-top: 20px;
+    width: 48%;
+    background-attachment: fixed;
+}
+
+.box2 :not(p) {
+    text-align: center;
+}
+
+.box3 {
+    width: 47%;
+}
+.box4 {
+    width: 45%;
+}
+
+.box5,
+.box6,
+.box7 {
+    width: 33.3%;
+
+}
+
+.box8 {
+    width: 40%;
+}
+
+body {
+    background-color: #d7c9bc;
+   padding: 10px;
+}
+footer {
+    background-image: conic-gradient(#26150b, #592608);
+    background-image: conic-gradient( right, #26150b 75%, #a65208);
+}
