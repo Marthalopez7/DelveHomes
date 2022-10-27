@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #ebdbcc;
+    background-color: #d7c9bc;
 }
 
 img {
@@ -71,22 +71,6 @@ header nav ul a:hover {
     color: white;
 }
 
-.one,
-.two {
-    width: 49%;
-    margin: 10px;
-}
-
-.three img {
-    background-position: center;
-    appearance: fixed;
-}
-
-.four,
-.five {
-    width: 49%;
-    margin: 10px;
-}
 
 footer {
     background-image: conic-gradient(#26150b, #592608);

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #d7c9bc;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100vw;
+    background-color: #592608;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo {
+    width: 200px;
+    mix-blend-mode: difference;
+}
+
+header nav {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul a {
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+    transition: color 200ms ease-in-out;
+    font-size: 1.1rem;
+}
+
+header nav ul a:hover {
+    color: goldenrod;
+    background-color: #4a2613;
+}
+
+.hero {
+    height: 75vh;
+    width: 100%;
+    background-image: url(images/darkbrown-tunnel.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 30%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+.one,
+.two {
+    width: 49%;
+    margin: 10px;
+}
+
+.four,
+.five {
+    width: 49%;
+    margin: 10px;
+}
+
+footer {
+    background-image: conic-gradient(#26150b, #592608);
+    background-image: conic-gradient( right, #26150b 75%, #a65208);
+    }
+    
+@media screen and (max-width: 640px) {
+    [class^="box"] {
+        width: 100%;
+     }
+}
+
