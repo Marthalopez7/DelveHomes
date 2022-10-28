@@ -1,4 +1,9 @@
 
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 img {
     max-width: 100%;
 }
@@ -72,8 +77,12 @@ main {
 .box2 {
     margin-top: 20px;
     width: 48%;
-    background-attachment: fixed;
 }
+
+.box2 {
+    margin-left: 20px;
+}
+
 
 .box2 :not(p) {
     text-align: center;
@@ -83,7 +92,8 @@ main {
     width: 47%;
 }
 .box4 {
-    width: 45%;
+    margin-left: 20px;
+    width: 50%;
 }
 
 .box5,
@@ -99,8 +109,8 @@ main {
 
 body {
     background-color: #d7c9bc;
-   padding: 10px;
 }
+
 footer {
     background-image: conic-gradient(#26150b, #592608);
     background-image: conic-gradient( right, #26150b 75%, #a65208);
