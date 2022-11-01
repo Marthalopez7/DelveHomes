@@ -1,2 +1,316 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+body {
+    background-color: #d7c9bc;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100vw;
+    background-color: #592608;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+header .logo {
+    width: 200px;
+    mix-blend-mode: difference;
+}
+
+header nav {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+ nav ul a {
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+    transition: color 200ms ease-in-out;
+    font-size: 1.1rem;
+}
+
+ nav ul a:hover {
+    color: goldenrod;
+    background-color: #4a2613;
+}
+
+.hero {
+    height: 75vh;
+    width: 100%;
+    background-image: url(images/darkbrown-tunnel.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 30%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+
+
+.one,
+.two {
+    width: 49%;
+    margin: 10px;
+}
+
+.four,
+.five {
+    width: 49%;
+    margin: 10px;
+}
+
+footer {
+    background-image: conic-gradient(#26150b, #592608);
+    background-image: conic-gradient( right, #26150b 75%, #a65208);
+    }
+    
+@media screen and (max-width: 640px) {
+    [class^="box"] {
+        width: 100%;
+     }
+}
+
+/* start of experience page */
+
+.picture {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button,
+.exit,
+.dancing {
+    padding: 0 10px;
+    width: 33.3%;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.hallway,
+.hexagon,
+.meeting {
+    margin-top: 16px;
+    padding: 0 10px;
+    width: 33.3%;
+}
+
+.content,
+.text {
+    padding: 0 15px;
+    width: 47%;
+}
+
+.content {
+    background-image: conic-gradient(dimgrey, tan);
+    background-image: conic-gradient( right, dimgrey 75%, tan);
+    margin-left: 15px;
+    margin-top: 15px;
+    max-width: 50%;
+    margin-bottom: 15px;
+}
+
+.text {
+    background-image: conic-gradient(dimgrey, tan);
+    background-image: conic-gradient( right, dimgrey 75%, tan);
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+
+.content :first-child {
+    text-align: center;
+}
+
+.text :first-child {
+    text-align: center;
+}
+
+footer {
+    background-image: conic-gradient(#26150b, #592608);
+    background-image: conic-gradient( right, #26150b 75%, #a65208);
+    display: flex;
+    width: 100%;
+}
+
+footer .logo {
+    width: 200px;
+    mix-blend-mode: difference;
+}
+
+footer nav {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+footer nav ul a {
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+    transition: color 200ms ease-in-out;
+    font-size: 1.1rem;
+}
+
+footer nav ul a:hover {
+    color: goldenrod;
+    background-color: #4a2613;
+}
+
+.footer-content {
+    color: aliceblue;
+    margin-left: 15px;
+}
+
+.copyright,
+.CART {
+    display: flex;
+    width: 50%;
+}
+
+.CART {
+   width: 20%;
+}
+
+@media screen and (max-width: 640px) {
+    .button,
+    .exit {
+        width: 50%;
+    }
+
+    .dancing,
+    .hallway {
+        margin-top: 15px;
+        width: 50%;
+    }
+
+    .hexagon,
+    .meeting {
+        width: 50%;
+    }
+}
+
+/* start of visit page */
+
+.explore {
+    background-image: conic-gradient(dimgrey, tan);
+    background-image: conic-gradient( right, dimgrey 75%, tan);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    height: 12rem; 
+}
+
+.explore :first-child {
+    text-align: center;
+}
+
+.explore :last-child {
+    margin-left: 5px;
+    margin-top: 20px ;
+}
+
+.tunnel {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;     
+}
+
+.explore,
+.tunnel {
+    width: 48%;
+}
+
+.map {
+   margin-left: 15px; 
+}
+
+.map,
+.form {
+    width: 70%;
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
+/* start of amenities page */
+
+
+.affordability {
+    background-image: conic-gradient(dimgrey, tan);
+    background-image: conic-gradient( right, dimgrey 75%, tan);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
+.text-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.assistive,
+.surface,
+.airship {
+    width: 30%;
+}
+
+.assistive {
+    background-image: conic-gradient(dimgrey, tan);
+    background-image: conic-gradient( right, dimgrey 75%, tan);  
+    margin-top: 15px;
+}
+
+.surface {
+    background-image: conic-gradient(dimgrey, tan);
+    background-image: conic-gradient( right, dimgrey 75%, tan);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.airship {
+    background-image: conic-gradient(dimgrey, tan);
+    background-image: conic-gradient( right, dimgrey 75%, tan);
+    margin-left: 20px;
+    margin-top: 15px;
+}
 
