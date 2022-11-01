@@ -130,8 +130,7 @@ footer {
 }
 
 .content {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 15px;
     margin-top: 15px;
     max-width: 50%;
@@ -139,8 +138,7 @@ footer {
 }
 
 .text {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;   
@@ -228,8 +226,7 @@ footer nav ul a:hover {
 /* start of visit page */
 
 .explore {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px; 
@@ -273,13 +270,22 @@ footer nav ul a:hover {
 
 
 .affordability {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
 }
 
 
+.shadow,
+.surface-image,
+.food,
+.staircase {
+    padding: 0 10px;
+    margin-top: 15px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .text-container {
     max-width: 1280px;
@@ -294,22 +300,57 @@ footer nav ul a:hover {
     width: 30%;
 }
 
+.assistive :first-child {
+    text-align: center;
+}
+
+.surface :first-child {
+    text-align: center;
+}
+
+.airship :first-child {
+    text-align: center;
+}
+
+.assistive :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.surface :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.airship :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.affordability :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.affordability :first-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
 .assistive {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);  
+    background-image: radial-gradient(bisque, tan);  
     margin-top: 15px;
 }
 
 .surface {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
 }
 
 .airship {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
 }
