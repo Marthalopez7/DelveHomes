@@ -99,19 +99,62 @@ header nav ul a:hover {
     width: 33.3%;
 }
 
-.technology,
-.info {
-    margin-top: 10px;
-    display: flex;
-    padding: 0 10px;
+.content,
+.text {
+    padding: 0 15px;
     width: 50%;
 }
 
-.technology :not(p){
+.content {
+    background-image: conic-gradient(grey, tan);
+    background-image: conic-gradient( right, grey 75%, tan);
+    margin-left: 15px;
+    margin-top: 15px;
+    max-width: 50%;
+}
+
+.text {
+    background-image: conic-gradient(grey, tan);
+    background-image: conic-gradient( right, grey 75%, tan);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+
+.content :first-child {
+    text-align: center;
+}
+
+.text :first-child {
     text-align: center;
 }
 
 footer {
     background-image: conic-gradient(#26150b, #592608);
     background-image: conic-gradient( right, #26150b 75%, #a65208);
+}
+
+@media screen and (max-width: 640px) {
+    .one,
+    .two {
+        width: 50%;
+    }
+
+    .three,
+    .four {
+        margin-top: 15px;
+        width: 50%;
+    }
+
+    .five,
+    .six {
+        width: 50%;
+    }
+
+    .footer-content {
+        img {
+            max-width: 20%;
+        }
+    }
 }
