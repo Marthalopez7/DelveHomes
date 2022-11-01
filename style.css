@@ -73,17 +73,65 @@ header nav ul {
     text-align: center;
 }
 
+.one {
+    background-image: radial-gradient(bisque, tan);
+}
+
+
+
+.home-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .one,
 .two {
-    width: 49%;
-    margin: 10px;
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.last-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .four,
 .five {
-    width: 49%;
-    margin: 10px;
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.five {
+    background-image: radial-gradient(bisque, tan); 
+}
+
+.one :first-child {
+    text-align: center;
+}
+
+.one :last-child {
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+
+.five :first-child {
+    text-align: center;
+}
+
+.five :last-child {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer {
@@ -94,6 +142,10 @@ footer {
 @media screen and (max-width: 640px) {
     [class^="box"] {
         width: 100%;
+     }
+     .one {
+        width: 50%;
+        display: block;
      }
 }
 
@@ -123,13 +175,13 @@ footer {
     width: 33.3%;
 }
 
-.content,
-.text {
+.technology,
+.feedback {
     padding: 0 15px;
     width: 47%;
 }
 
-.content {
+.technology {
     background-image: radial-gradient(bisque, tan);
     margin-left: 15px;
     margin-top: 15px;
@@ -137,14 +189,14 @@ footer {
     margin-bottom: 15px;
 }
 
-.text {
+.feedback {
     background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;   
 }
 
-.content :first-child {
+.texhnology :first-child {
     text-align: center;
 }
 
@@ -221,6 +273,15 @@ footer nav ul a:hover {
     .meeting {
         width: 50%;
     }
+
+   .technology,
+   .feedback {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+   }
 }
 
 /* start of visit page */
@@ -259,11 +320,15 @@ footer nav ul a:hover {
 
 .map,
 .form {
-    width: 70%;
+    width: 40%;
+}
+
+.form {
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 640px) {
-
+   
 }
 
 /* start of amenities page */
@@ -282,7 +347,7 @@ footer nav ul a:hover {
 .staircase {
     padding: 0 10px;
     margin-top: 15px;
-    display: block; 
+    display: inline-block; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -294,10 +359,12 @@ footer nav ul a:hover {
     flex-wrap: wrap;
 }
 
+
 .assistive,
 .surface,
 .airship {
     width: 30%;
+    margin-bottom: 15px;
 }
 
 .assistive :first-child {
@@ -355,3 +422,29 @@ footer nav ul a:hover {
     margin-top: 15px;
 }
 
+@media screen and (max-width: 640px) {
+    .affordability {
+        margin-right: 15px;
+    }
+
+    .assistive,
+    .surface {
+        width: 47%;
+    }
+
+    .airship {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .footer-content {
+        width: 50%;
+    }
+
+    footer nav ul {
+        width: 50%;
+    }
+}
