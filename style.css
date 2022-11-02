@@ -47,11 +47,7 @@ header nav ul {
     padding: 2rem;
     color: white;
     transition: color 200ms ease-in-out;
-<<<<<<< HEAD
-    font-size: 1.1rem;
-=======
     font-size: 18px;
->>>>>>> fixing-spacing
 }
 
  nav ul a:hover {
@@ -76,14 +72,6 @@ header nav ul {
     color: white;
     text-align: center;
 }
-<<<<<<< HEAD
-
-
-.one,
-.two {
-    width: 49%;
-    margin: 10px;
-=======
 
 .one {
     background-image: radial-gradient(bisque, tan);
@@ -115,15 +103,10 @@ header nav ul {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
->>>>>>> fixing-spacing
 }
 
 .four,
 .five {
-<<<<<<< HEAD
-    width: 49%;
-    margin: 10px;
-=======
     width: 48%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -149,7 +132,6 @@ header nav ul {
 .five :last-child {
     margin-left: 10px;
     margin-right: 10px;
->>>>>>> fixing-spacing
 }
 
 footer {
@@ -161,8 +143,6 @@ footer {
     [class^="box"] {
         width: 100%;
      }
-<<<<<<< HEAD
-=======
      .one {
         width: 50%;
         display: block;
@@ -301,7 +281,6 @@ footer {
    .copyright {
     width: 50%;
    }
->>>>>>> fixing-spacing
 }
 
 /* start of experience page */
@@ -330,49 +309,28 @@ footer {
     width: 33.3%;
 }
 
-<<<<<<< HEAD
-.content,
-.text {
-=======
 .technology,
 .feedback {
->>>>>>> fixing-spacing
     padding: 0 15px;
     width: 47%;
 }
 
-<<<<<<< HEAD
-.content {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
-=======
 .technology {
     background-image: radial-gradient(bisque, tan);
->>>>>>> fixing-spacing
     margin-left: 15px;
     margin-top: 15px;
     max-width: 50%;
     margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
-.text {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
-=======
 .feedback {
     background-image: radial-gradient(bisque, tan);
->>>>>>> fixing-spacing
     margin-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;   
 }
 
-<<<<<<< HEAD
-.content :first-child {
-=======
 .texhnology :first-child {
->>>>>>> fixing-spacing
     text-align: center;
 }
 
@@ -449,8 +407,6 @@ footer nav ul a:hover {
     .meeting {
         width: 50%;
     }
-<<<<<<< HEAD
-=======
 
    .technology,
    .feedback {
@@ -460,18 +416,12 @@ footer nav ul a:hover {
     display: block;
     
    }
->>>>>>> fixing-spacing
 }
 
 /* start of visit page */
 
 .explore {
-<<<<<<< HEAD
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
-=======
     background-image: radial-gradient(bisque, tan);
->>>>>>> fixing-spacing
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px; 
@@ -488,11 +438,7 @@ footer nav ul a:hover {
 }
 
 .tunnel {
-<<<<<<< HEAD
-    margin-left: 15px;
-=======
     margin-left: 50px;
->>>>>>> fixing-spacing
     margin-top: 15px;
     margin-bottom: 15px;     
 }
@@ -508,13 +454,6 @@ footer nav ul a:hover {
 
 .map,
 .form {
-<<<<<<< HEAD
-    width: 70%;
-}
-
-@media screen and (max-width: 640px) {
-
-=======
     width: 30%;
 }
 
@@ -535,26 +474,18 @@ footer nav ul a:hover {
    .form {
     width: 50%;
    }
->>>>>>> fixing-spacing
 }
 
 /* start of amenities page */
 
 
 .affordability {
-<<<<<<< HEAD
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
-=======
     background-image: radial-gradient(bisque, tan);
->>>>>>> fixing-spacing
     margin-left: 20px;
     margin-top: 15px;
 }
 
 
-<<<<<<< HEAD
-=======
 .shadow,
 .surface-image,
 .food,
@@ -565,7 +496,6 @@ footer nav ul a:hover {
     margin-left: auto;
     margin-right: auto;
 }
->>>>>>> fixing-spacing
 
 .text-container {
     max-width: 1280px;
@@ -574,21 +504,10 @@ footer nav ul a:hover {
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> fixing-spacing
 .assistive,
 .surface,
 .airship {
     width: 30%;
-<<<<<<< HEAD
-}
-
-.assistive {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);  
-=======
     margin-bottom: 15px;
 }
 
@@ -632,28 +551,16 @@ footer nav ul a:hover {
 
 .assistive {
     background-image: radial-gradient(bisque, tan);  
->>>>>>> fixing-spacing
     margin-top: 15px;
 }
 
 .surface {
-<<<<<<< HEAD
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
-=======
     background-image: radial-gradient(bisque, tan);
->>>>>>> fixing-spacing
     margin-left: 20px;
     margin-top: 15px;
 }
 
 .airship {
-<<<<<<< HEAD
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
-    margin-left: 20px;
-    margin-top: 15px;
-=======
     background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
@@ -684,5 +591,4 @@ footer nav ul a:hover {
     footer nav ul {
         width: 50%;
     }
->>>>>>> fixing-spacing
 }
