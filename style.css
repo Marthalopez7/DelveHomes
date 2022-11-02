@@ -288,6 +288,140 @@ footer {
 
 }
 
+/* start of about page */
+
+.a-one,
+.a-two {
+    width: 46%;
+    margin-top: 15px;
+}
+
+.a-one {
+    margin-left: 15px;
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-two {
+    margin-left: 15px;
+}
+
+.brown-disk {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.portrait-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.a-three,
+.a-four,
+.a-five {
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a-four {
+    margin-left: 15px;
+    margin-right: 15px ;
+    margin-top: 30px;
+}
+
+.about-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.a-six,
+.a-seven,
+.a-eight {
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a-seven {
+    margin-left: 15px;
+    margin-right: 15px ;
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-six {
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-eight {
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-six :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-seven :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-eight :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+   .brown-disk {
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 10px;
+   }
+
+   .a-three,
+   .a-four {
+    width: 44%;
+   }
+
+   .a-three {
+    margin-left: 18px;
+   }
+
+   .a-four {
+    margin-top: 15px;
+   }
+
+   .a-five {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .a-six,
+   .a-seven {
+    width: 44%;
+   }
+
+   .a-six {
+    margin-left: 18px;
+   }
+
+   .footer-header  {
+    width: 50%;
+   }
+
+   .copyright {
+    width: 50%;
+   }
+}
+
 /* start of experience page */
 
 .picture {
