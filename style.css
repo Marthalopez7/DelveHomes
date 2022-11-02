@@ -5,6 +5,8 @@
 
 body {
     background-color: #d7c9bc;
+    margin: 0;
+    font-size: 20px;
 }
 
 img {
@@ -47,7 +49,7 @@ header nav ul {
     padding: 2rem;
     color: white;
     transition: color 200ms ease-in-out;
-    font-size: 1.1rem;
+    font-size: 21px;
 }
 
  nav ul a:hover {
@@ -73,6 +75,65 @@ header nav ul {
     text-align: center;
 }
 
+.one {
+    background-image: radial-gradient(bisque, tan);
+}
+
+.home-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.one,
+.two {
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.last-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.four,
+.five {
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.five {
+    background-image: radial-gradient(bisque, tan); 
+}
+
+.one :first-child {
+    text-align: center;
+}
+
+.one :last-child {
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+
+.five :first-child {
+    text-align: center;
+}
+
+.five :last-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 footer {
     background-image: conic-gradient(#26150b, #592608);
     background-image: conic-gradient( right, #26150b 75%, #a65208);
@@ -82,61 +143,144 @@ footer {
     [class^="box"] {
         width: 100%;
      }
+     .one {
+        width: 50%;
+        display: block;
+     }
 }
 
-/* start of index */
+/* start of about page */
 
-.one,
-.two {
-    width: 49%;
-    margin: 5px;
+.a-one,
+.a-two {
+    width: 46%;
+    margin-top: 15px;
 }
-
-.four,
-.five {
-    width: 49%;
-    margin: 10px;
-}
-
-/* start of about us page */
 
 .a-one {
-    width: 49%;
     margin-left: 15px;
-    padding-top: 10px;
+    background-image: radial-gradient(bisque, tan);
 }
 
 .a-two {
-    width: 49%;
+    margin-left: 15px;
+}
+
+.brown-disk {
+    margin-top: 15px;
+    margin-left: 15px;
     margin-right: 15px;
-    padding-top: 10px;
+}
+
+.portrait-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .a-three,
 .a-four,
 .a-five {
-    width: 22%;
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a-four {
+    margin-left: 15px;
+    margin-right: 15px ;
+    margin-top: 30px;
+}
+
+.about-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .a-six,
 .a-seven,
 .a-eight {
-    width: 25%;
-    margin-left: 110px;
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.a-four {
-    margin-right: 200px;
-    margin-left: 200px;
+.a-seven {
+    margin-left: 15px;
+    margin-right: 15px ;
+    background-image: radial-gradient(bisque, tan);
 }
 
+.a-six {
+    background-image: radial-gradient(bisque, tan);
+}
 
-.portrait-container {
-    max-width: 200vh;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.a-eight {
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-six :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-seven :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-eight :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+   .brown-disk {
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 10px;
+   }
+
+   .a-three,
+   .a-four {
+    width: 44%;
+   }
+
+   .a-three {
+    margin-left: 18px;
+   }
+
+   .a-four {
+    margin-top: 15px;
+   }
+
+   .a-five {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .a-six,
+   .a-seven {
+    width: 44%;
+   }
+
+   .a-six {
+    margin-left: 18px;
+   }
+
+   .footer-header  {
+    width: 50%;
+   }
+
+   .copyright {
+    width: 50%;
+   }
 }
 
 /* start of experience page */
@@ -165,30 +309,28 @@ footer {
     width: 33.3%;
 }
 
-.content,
-.text {
+.technology,
+.feedback {
     padding: 0 15px;
     width: 47%;
 }
 
-.content {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+.technology {
+    background-image: radial-gradient(bisque, tan);
     margin-left: 15px;
     margin-top: 15px;
     max-width: 50%;
     margin-bottom: 15px;
 }
 
-.text {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+.feedback {
+    background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;   
 }
 
-.content :first-child {
+.texhnology :first-child {
     text-align: center;
 }
 
@@ -265,63 +407,82 @@ footer nav ul a:hover {
     .meeting {
         width: 50%;
     }
+
+   .technology,
+   .feedback {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+   }
 }
 
 /* start of visit page */
 
+
 .explore {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px; 
-    height: 12rem; 
+    background-image: radial-gradient(bisque, tan);
+    height: 14rem; 
 }
 
 .explore :first-child {
     text-align: center;
 }
 
-.explore :last-child {
-    margin-left: 5px;
-    margin-top: 20px ;
-}
-
-.tunnel {
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;     
+.explore p {
+    padding: 15px;
 }
 
 .explore,
 .tunnel {
-    width: 48%;
+    width: 48.4%;
+    margin: 15px;
 }
 
 .map {
    margin-left: 15px; 
+   width: 50%;
 }
 
-.map,
-.form {
-    width: 70%;
+form {
+    max-width: 250px;
+    margin: 15px;
 }
 
 @media screen and (max-width: 640px) {
+   .tunnel {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+   }
 
+   .map, {
+    width: 50%;
+   }
 }
 
 /* start of amenities page */
 
 
 .affordability {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
 }
 
 
+.shadow,
+.surface-image,
+.food,
+.staircase {
+    padding: 0 10px;
+    margin-top: 15px;
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .text-container {
     max-width: 1280px;
@@ -334,24 +495,87 @@ footer nav ul a:hover {
 .surface,
 .airship {
     width: 30%;
+    margin-bottom: 15px;
 }
 
+.assistive :first-child {
+    text-align: center;
+}
+
+.surface :first-child {
+    text-align: center;
+}
+
+.airship :first-child {
+    text-align: center;
+}
+
+.assistive :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.surface :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.airship :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.affordability :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.affordability :first-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
 .assistive {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);  
+    background-image: radial-gradient(bisque, tan);  
     margin-top: 15px;
 }
 
 .surface {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
 }
 
 .airship {
-    background-image: conic-gradient(dimgrey, tan);
-    background-image: conic-gradient( right, dimgrey 75%, tan);
+    background-image: radial-gradient(bisque, tan);
     margin-left: 20px;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 640px) {
+    .affordability {
+        margin-right: 15px;
+    }
+
+    .assistive,
+    .surface {
+        width: 47%;
+    }
+
+    .airship {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .footer-content {
+        width: 50%;
+    }
+
+    footer nav ul {
+        width: 50%;
+    }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visit</title>
+    <title>DelveHomes: Machine</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,7 +20,7 @@
                 <li><a href="aboutpage.html">About Us</a></li>
                 <li><a href="experiencepage.html">Experience</a></li>
                 <li><a href="visitpage.html">Visit</a></li>
-                <li><a href="amenitiespage.html">Amenites</a></li>
+                <li><a href="amenitiespage.html">Amenities</a></li>
             </ul>
         </nav>
     </header>
@@ -33,27 +33,48 @@
                 </div>        
             </section>
             <div class="tunnel">
-             <img src="images/tunnel.jpg" alt="tunnel">
+             <img src="images/tunnel.jpg" " alt="tunnel">
             </div>
         <div class="explore">
             <h3>Explore</h3>
             <p>Come and explore inside the machine! Residents are able to embark on a wonderful journey exploring the machine. Some of our most popular sites are the rooms, vomitories, the public nurseries, the tunnels and railroads. </p>
         </div>           
-                <div class="map">
-                <h3>Our Locations</h3>
-                 <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55582500.78629107!2d-132.17253865168612!3d31.757211140162532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sus!4v1667275963906!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-                </div>
-        <div class="form">
-            <h3>Come and Visit!</h3>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeydJXo509Rtrvsza3iQtsMxQ-Z6LRbVpkJJxq2SzsY8YH1nA/viewform?embedded=true" width="640" height="1065" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
+            <div class="map">
+            <h3>Our Locations</h3>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55582500.78629107!2d-132.17253865168612!3d31.757211140162532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sus!4v1667275963906!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+        <form>
+            <label for="email">Email:</label><br>
+            <input type="text" name="Email" id="email"><br>
+            <label for="pnumber">Phone number:</label><br>
+            <input type="text" name="Phone number" id="phone number"><br>
+        </form>
+        <form>
+            <label for="qone">Which of the following sites appeals to you most:</label><br>
+            <input type="checkbox" name="s_appeal" id="r-rooms">
+            <label for="r-rooms">Resident rooms</label><br>
+            <input type="checkbox" name="s_appeal" id="vom">
+            <label for="vom">Vomitories</label><br>
+            <input type="checkbox" name="s_appeal" id="t/r">
+            <label for="t/r">Tunnels/railroads</label><br>
+            <input type="checkbox" name="s_appeal" id="p-nurseries">
+            <label for="p-nurseries">Public nurseries</label><br>
+        </form>
+        <form>
+            <label for="qtwo">Have you been on one of our tours before?</label><br>
+            <input type="radio" name="s_appeal" id="yes">
+            <label for="yes">Yes, I have</label><br>
+            <input type="radio" name="s_appeal" id="no">
+            <label for="no">No, I have not</label><br>
+            <input type="submit" value="Submit">
+        </form>
     </main>
     <footer>
         <div class="footer-content">
-            <section>
+            <section class="footer-header">
                 <nav>
                     <div class="logo">
-                        <a href="amenititespage.html">
+                        <a href="index.html">
                            <img src="images/logo.png" alt="Delve Homes Logo"> 
                         </a>                
                     </div>
@@ -72,7 +93,7 @@
             </div>
                 <div class="CART">
                     <img src="images/CART_Logo.png" alt="CART_Logo">
-                </div>
+                 </div>
         </div>
     </footer>
 </body>
