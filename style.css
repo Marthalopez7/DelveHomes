@@ -47,7 +47,11 @@ header nav ul {
     padding: 2rem;
     color: white;
     transition: color 200ms ease-in-out;
+<<<<<<< HEAD
     font-size: 1.1rem;
+=======
+    font-size: 18px;
+>>>>>>> fixing-spacing
 }
 
  nav ul a:hover {
@@ -72,18 +76,80 @@ header nav ul {
     color: white;
     text-align: center;
 }
+<<<<<<< HEAD
 
 
 .one,
 .two {
     width: 49%;
     margin: 10px;
+=======
+
+.one {
+    background-image: radial-gradient(bisque, tan);
+}
+
+
+
+.home-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.one,
+.two {
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.last-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+>>>>>>> fixing-spacing
 }
 
 .four,
 .five {
+<<<<<<< HEAD
     width: 49%;
     margin: 10px;
+=======
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.five {
+    background-image: radial-gradient(bisque, tan); 
+}
+
+.one :first-child {
+    text-align: center;
+}
+
+.one :last-child {
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+
+.five :first-child {
+    text-align: center;
+}
+
+.five :last-child {
+    margin-left: 10px;
+    margin-right: 10px;
+>>>>>>> fixing-spacing
 }
 
 footer {
@@ -95,6 +161,147 @@ footer {
     [class^="box"] {
         width: 100%;
      }
+<<<<<<< HEAD
+=======
+     .one {
+        width: 50%;
+        display: block;
+     }
+}
+
+/* start of about page */
+
+.a-one,
+.a-two {
+    width: 46%;
+    margin-top: 15px;
+}
+
+.a-one {
+    margin-left: 15px;
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-two {
+    margin-left: 15px;
+}
+
+.brown-disk {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.portrait-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.a-three,
+.a-four,
+.a-five {
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a-four {
+    margin-left: 15px;
+    margin-right: 15px ;
+    margin-top: 30px;
+}
+
+.about-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.a-six,
+.a-seven,
+.a-eight {
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a-seven {
+    margin-left: 15px;
+    margin-right: 15px ;
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-six {
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-eight {
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-six :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-seven :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-eight :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+   .brown-disk {
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 10px;
+   }
+
+   .a-three,
+   .a-four {
+    width: 44%;
+   }
+
+   .a-three {
+    margin-left: 18px;
+   }
+
+   .a-four {
+    margin-top: 15px;
+   }
+
+   .a-five {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .a-six,
+   .a-seven {
+    width: 44%;
+   }
+
+   .a-six {
+    margin-left: 18px;
+   }
+
+   .footer-header  {
+    width: 50%;
+   }
+
+   .copyright {
+    width: 50%;
+   }
+>>>>>>> fixing-spacing
 }
 
 /* start of experience page */
@@ -123,30 +330,49 @@ footer {
     width: 33.3%;
 }
 
+<<<<<<< HEAD
 .content,
 .text {
+=======
+.technology,
+.feedback {
+>>>>>>> fixing-spacing
     padding: 0 15px;
     width: 47%;
 }
 
+<<<<<<< HEAD
 .content {
     background-image: conic-gradient(dimgrey, tan);
     background-image: conic-gradient( right, dimgrey 75%, tan);
+=======
+.technology {
+    background-image: radial-gradient(bisque, tan);
+>>>>>>> fixing-spacing
     margin-left: 15px;
     margin-top: 15px;
     max-width: 50%;
     margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 .text {
     background-image: conic-gradient(dimgrey, tan);
     background-image: conic-gradient( right, dimgrey 75%, tan);
+=======
+.feedback {
+    background-image: radial-gradient(bisque, tan);
+>>>>>>> fixing-spacing
     margin-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;   
 }
 
+<<<<<<< HEAD
 .content :first-child {
+=======
+.texhnology :first-child {
+>>>>>>> fixing-spacing
     text-align: center;
 }
 
@@ -223,13 +449,29 @@ footer nav ul a:hover {
     .meeting {
         width: 50%;
     }
+<<<<<<< HEAD
+=======
+
+   .technology,
+   .feedback {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+   }
+>>>>>>> fixing-spacing
 }
 
 /* start of visit page */
 
 .explore {
+<<<<<<< HEAD
     background-image: conic-gradient(dimgrey, tan);
     background-image: conic-gradient( right, dimgrey 75%, tan);
+=======
+    background-image: radial-gradient(bisque, tan);
+>>>>>>> fixing-spacing
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px; 
@@ -246,7 +488,11 @@ footer nav ul a:hover {
 }
 
 .tunnel {
+<<<<<<< HEAD
     margin-left: 15px;
+=======
+    margin-left: 50px;
+>>>>>>> fixing-spacing
     margin-top: 15px;
     margin-bottom: 15px;     
 }
@@ -262,24 +508,64 @@ footer nav ul a:hover {
 
 .map,
 .form {
+<<<<<<< HEAD
     width: 70%;
 }
 
 @media screen and (max-width: 640px) {
 
+=======
+    width: 30%;
+}
+
+.form {
+    margin-left: 650px;
+    margin-top: -100px;
+}
+
+@media screen and (max-width: 640px) {
+   .tunnel {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+   }
+
+   .map,
+   .form {
+    width: 50%;
+   }
+>>>>>>> fixing-spacing
 }
 
 /* start of amenities page */
 
 
 .affordability {
+<<<<<<< HEAD
     background-image: conic-gradient(dimgrey, tan);
     background-image: conic-gradient( right, dimgrey 75%, tan);
+=======
+    background-image: radial-gradient(bisque, tan);
+>>>>>>> fixing-spacing
     margin-left: 20px;
     margin-top: 15px;
 }
 
 
+<<<<<<< HEAD
+=======
+.shadow,
+.surface-image,
+.food,
+.staircase {
+    padding: 0 10px;
+    margin-top: 15px;
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+>>>>>>> fixing-spacing
 
 .text-container {
     max-width: 1280px;
@@ -288,28 +574,115 @@ footer nav ul a:hover {
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> fixing-spacing
 .assistive,
 .surface,
 .airship {
     width: 30%;
+<<<<<<< HEAD
 }
 
 .assistive {
     background-image: conic-gradient(dimgrey, tan);
     background-image: conic-gradient( right, dimgrey 75%, tan);  
+=======
+    margin-bottom: 15px;
+}
+
+.assistive :first-child {
+    text-align: center;
+}
+
+.surface :first-child {
+    text-align: center;
+}
+
+.airship :first-child {
+    text-align: center;
+}
+
+.assistive :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.surface :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.airship :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.affordability :last-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.affordability :first-child {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.assistive {
+    background-image: radial-gradient(bisque, tan);  
+>>>>>>> fixing-spacing
     margin-top: 15px;
 }
 
 .surface {
+<<<<<<< HEAD
     background-image: conic-gradient(dimgrey, tan);
     background-image: conic-gradient( right, dimgrey 75%, tan);
+=======
+    background-image: radial-gradient(bisque, tan);
+>>>>>>> fixing-spacing
     margin-left: 20px;
     margin-top: 15px;
 }
 
 .airship {
+<<<<<<< HEAD
     background-image: conic-gradient(dimgrey, tan);
     background-image: conic-gradient( right, dimgrey 75%, tan);
     margin-left: 20px;
     margin-top: 15px;
+=======
+    background-image: radial-gradient(bisque, tan);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 640px) {
+    .affordability {
+        margin-right: 15px;
+    }
+
+    .assistive,
+    .surface {
+        width: 47%;
+    }
+
+    .airship {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .footer-content {
+        width: 50%;
+    }
+
+    footer nav ul {
+        width: 50%;
+    }
+>>>>>>> fixing-spacing
 }
