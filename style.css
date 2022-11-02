@@ -5,6 +5,8 @@
 
 body {
     background-color: #d7c9bc;
+    margin: 0px;
+    font-size: 20px;
 }
 
 img {
@@ -47,7 +49,7 @@ header nav ul {
     padding: 2rem;
     color: white;
     transition: color 200ms ease-in-out;
-    font-size: 1.1rem;
+    font-size: 21px;
 }
 
  nav ul a:hover {
@@ -75,45 +77,39 @@ header nav ul {
 
 .one {
     background-image: radial-gradient(bisque, tan);
+    margin-left: 15px;
 }
 
-
-
-.home-container {
-    max-width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.two {
+    margin-left: 15px;
 }
 
 .three {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .one,
 .two {
-    width: 48%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.last-container {
-    max-width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    width: 48.8%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .four,
 .five {
-    width: 48%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 48.8%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .five {
     background-image: radial-gradient(bisque, tan); 
+    margin-left: 15px;
+}
+
+.four {
+    margin-left: 15px;
 }
 
 .one :first-child {
@@ -140,13 +136,156 @@ footer {
     }
     
 @media screen and (max-width: 640px) {
-    [class^="box"] {
-        width: 100%;
-     }
      .one {
-        width: 50%;
-        display: block;
+        width: 100%;
+        margin-right: 15px;     
      }
+
+     .two {
+        width: 100%;
+        margin-right: 15px;
+        margin-top: 15px;
+     }
+
+     .four {
+        width: 100%;
+        margin-right: 15px; 
+     }
+
+     .five {
+        width: 100%;
+        margin-right: 15px; 
+     }
+}
+
+/* start of about page */
+
+.a-one,
+.a-two {
+    width: 48.8%;
+    margin-top: 15px;
+}
+
+.a-one p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-one h3 {
+    margin-left: 10px;
+}
+
+.a-one {
+    margin-left: 15px;
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-two {
+    margin-left: 15px;
+}
+
+.brown-disk {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.a-three {
+    margin-left: 15px;
+}
+
+.a-three,
+.a-four,
+.a-five {
+    width: 32.3%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a-four {
+    margin-left: 15px;
+    margin-right: 15px ;
+    margin-top: 30px;
+}
+
+
+
+.a-six,
+.a-seven,
+.a-eight {
+    width: 32.3%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a-six {
+    margin-left: 15px;
+}
+
+.a-seven {
+    margin-left: 15px;
+    margin-right: 15px ;
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-six {
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-eight {
+    background-image: radial-gradient(bisque, tan);
+}
+
+.a-six :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-seven :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a-eight :first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+   .brown-disk {
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 10px;
+   }
+
+   .a-three,
+   .a-four {
+    width: 44%;
+   }
+
+   .a-three {
+    margin-left: 18px;
+   }
+
+   .a-four {
+    margin-top: 15px;
+   }
+
+   .a-five {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .a-six,
+   .a-seven {
+    width: 44%;
+   }
+
+   .a-six {
+    margin-left: 18px;
+   }
+
 }
 
 /* start of experience page */
@@ -234,7 +373,7 @@ footer nav ul a {
     padding: 2rem;
     color: white;
     transition: color 200ms ease-in-out;
-    font-size: 1.1rem;
+    font-size: 21px;
 }
 
 footer nav ul a:hover {
@@ -304,7 +443,7 @@ footer nav ul a:hover {
 }
 
 .tunnel {
-    margin-left: 15px;
+    margin-left: 50px;
     margin-top: 15px;
     margin-bottom: 15px;     
 }
@@ -320,15 +459,26 @@ footer nav ul a:hover {
 
 .map,
 .form {
-    width: 40%;
+    width: 30%;
 }
 
 .form {
-    margin-left: 20px;
+    margin-left: 650px;
+    margin-top: -100px;
 }
 
 @media screen and (max-width: 640px) {
-   
+   .tunnel {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+   }
+
+   .map,
+   .form {
+    width: 50%;
+   }
 }
 
 /* start of amenities page */
@@ -336,8 +486,9 @@ footer nav ul a:hover {
 
 .affordability {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 15px;
+    margin-right: 15px;
 }
 
 
@@ -345,25 +496,44 @@ footer nav ul a:hover {
 .surface-image,
 .food,
 .staircase {
-    padding: 0 10px;
-    margin-top: 15px;
-    display: inline-block; 
-    margin-left: auto;
-    margin-right: auto;
+   width: 24%;
+   margin: 0%;
+   margin-top: 15px;
+} 
+
+.shadow {
+    margin-left: 15px;
 }
 
-.text-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.surface-image {
+    margin-left: 15px;
 }
 
+.food {
+    margin-left: 15px;
+}
+
+.staircase {
+    margin-left: 15px;
+}
+
+.surface {
+    margin-left: 15px;
+}
+
+.assistive {
+    margin-left: 15px;
+}
+
+.airship {
+    margin-left: 15px;
+}
 
 .assistive,
 .surface,
 .airship {
-    width: 30%;
+    width: 32.3%;   
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -407,19 +577,15 @@ footer nav ul a:hover {
 
 .assistive {
     background-image: radial-gradient(bisque, tan);  
-    margin-top: 15px;
+   
 }
 
 .surface {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 20px;
-    margin-top: 15px;
 }
 
 .airship {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 20px;
-    margin-top: 15px;
 }
 
 @media screen and (max-width: 640px) {
