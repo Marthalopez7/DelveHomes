@@ -5,7 +5,7 @@
 
 body {
     background-color: #d7c9bc;
-    margin: 0;
+    margin: 0px;
     font-size: 20px;
 }
 
@@ -49,7 +49,7 @@ header nav ul {
     padding: 2rem;
     color: white;
     transition: color 200ms ease-in-out;
-    font-size: 21px;
+    font-size: 18px;
 }
 
  nav ul a:hover {
@@ -77,43 +77,39 @@ header nav ul {
 
 .one {
     background-image: radial-gradient(bisque, tan);
+    margin-left: 15px;
 }
 
-.home-container {
-    max-width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.two {
+    margin-left: 15px;
 }
 
 .three {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .one,
 .two {
-    width: 48%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.last-container {
-    max-width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    width: 48.8%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .four,
 .five {
-    width: 48%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 48.8%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .five {
     background-image: radial-gradient(bisque, tan); 
+    margin-left: 15px;
+}
+
+.four {
+    margin-left: 15px;
 }
 
 .one :first-child {
@@ -140,20 +136,32 @@ footer {
     }
     
 @media screen and (max-width: 640px) {
-    [class^="box"] {
-        width: 100%;
-     }
      .one {
-        width: 50%;
-        display: block;
+        width: 100%;
+        margin-right: 15px;     
+     }
+
+     .two {
+        width: 100%;
+        margin-right: 15px;
+        margin-top: 15px;
+     }
+
+     .four {
+        width: 100%;
+        margin-right: 15px; 
+     }
+
+     .five {
+        width: 100%;
+        margin-right: 15px; 
      }
 }
 
 /* start of about page */
-
 .a-one,
 .a-two {
-    width: 46%;
+    width: 48.8%;
     margin-top: 15px;
 }
 
@@ -172,18 +180,11 @@ footer {
     margin-right: 15px;
 }
 
-.portrait-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .a-three,
 .a-four,
 .a-five {
-    width: 30%;
+    width: 32.3%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -191,21 +192,14 @@ footer {
 .a-four {
     margin-left: 15px;
     margin-right: 15px ;
-    margin-top: 30px;
 }
 
-.about-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 
 .a-six,
 .a-seven,
 .a-eight {
-    width: 30%;
+    width: 32.3%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -282,9 +276,7 @@ footer {
     width: 50%;
    }
 }
-
 /* start of experience page */
-
 .picture {
     max-width: 1280px;
     margin: 0 auto;
@@ -312,7 +304,7 @@ footer {
 .technology,
 .feedback {
     padding: 0 15px;
-    width: 47%;
+    width: 48.7%;
 }
 
 .technology {
@@ -341,7 +333,6 @@ footer {
 footer {
     background-image: conic-gradient(#26150b, #592608);
     background-image: conic-gradient( right, #26150b 75%, #a65208);
-    display: flex;
     width: 100%;
 }
 
@@ -351,11 +342,10 @@ footer .logo {
 }
 
 footer nav {
-    width: 100%;
-    max-width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 footer nav ul {
@@ -368,7 +358,7 @@ footer nav ul a {
     padding: 2rem;
     color: white;
     transition: color 200ms ease-in-out;
-    font-size: 1.1rem;
+    font-size: 21px;
 }
 
 footer nav ul a:hover {
@@ -381,14 +371,15 @@ footer nav ul a:hover {
     margin-left: 15px;
 }
 
-.copyright,
 .CART {
-    display: flex;
-    width: 50%;
+    width: 250px;
 }
 
-.CART {
-   width: 20%;
+.copyright {
+    font-size: 16px;
+    display: flex;
+   justify-content: flex-end;
+   margin-right: 30px;
 }
 
 @media screen and (max-width: 640px) {
@@ -418,6 +409,7 @@ footer nav ul a:hover {
    }
 }
 
+
 /* start of visit page */
 
 
@@ -442,12 +434,17 @@ footer nav ul a:hover {
 
 .map {
    margin-left: 15px; 
-   width: 50%;
+   margin-right: 70px;
 }
 
 form {
     max-width: 250px;
-    margin: 15px;
+    margin: 30px;
+    font-size: 1.5rem;
+}
+
+.form {
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 640px) {
@@ -468,8 +465,9 @@ form {
 
 .affordability {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 15px;
+    margin-right: 15px;
 }
 
 
@@ -477,24 +475,44 @@ form {
 .surface-image,
 .food,
 .staircase {
-    padding: 0 10px;
-    margin-top: 15px;
-    display: inline-block; 
-    margin-left: auto;
-    margin-right: auto;
+   width: 24%;
+   margin: 0%;
+   margin-top: 15px;
+} 
+
+.shadow {
+    margin-left: 15px;
 }
 
-.text-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.surface-image {
+    margin-left: 15px;
+}
+
+.food {
+    margin-left: 15px;
+}
+
+.staircase {
+    margin-left: 15px;
+}
+
+.surface {
+    margin-left: 15px;
+}
+
+.assistive {
+    margin-left: 15px;
+}
+
+.airship {
+    margin-left: 15px;
 }
 
 .assistive,
 .surface,
 .airship {
-    width: 30%;
+    width: 32.3%;   
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -538,19 +556,15 @@ form {
 
 .assistive {
     background-image: radial-gradient(bisque, tan);  
-    margin-top: 15px;
+   
 }
 
 .surface {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 20px;
-    margin-top: 15px;
 }
 
 .airship {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 20px;
-    margin-top: 15px;
 }
 
 @media screen and (max-width: 640px) {
@@ -575,7 +589,4 @@ form {
         width: 50%;
     }
 
-    footer nav ul {
-        width: 50%;
-    }
 }
