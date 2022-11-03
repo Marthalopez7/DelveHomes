@@ -546,59 +546,50 @@ footer nav ul a:hover {
 
 .explore {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px; 
-    height: 12rem; 
-}
-
-.explore :first-child {
+    height: 14rem;
+    }
+    
+    .explore :first-child {
     text-align: center;
-}
-
-.explore :last-child {
-    margin-left: 5px;
-    margin-top: 20px ;
-}
-
-.tunnel {
-    margin-left: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;     
-}
-
-.explore,
-.tunnel {
-    width: 48%;
-}
-
-.map {
-   margin-left: 15px; 
-}
-
-.map,
-.form {
-    width: 30%;
-}
-
-.form {
-    margin-left: 650px;
-    margin-top: -100px;
-}
-
-@media screen and (max-width: 640px) {
-   .tunnel {
+    }
+    
+    .explore p {
+    padding: 15px;
+    }
+    
+    .explore,
+    .tunnel {
+    width: 48.4%;
+    margin: 15px;
+    }
+    
+    .map {
+    margin-left: 15px;
+    margin-right: 70px;
+    }
+    
+    form {
+    max-width: 250px;
+    margin: 30px;
+    font-size: 1.5rem;
+    }
+    
+    .form {
+    margin-top: 50px;
+    }
+    
+    @media screen and (max-width: 640px) {
+    .tunnel {
     margin: 0;
     margin-top: 15px;
     margin-left: 25px;
     margin-right: 25px;
-   }
-
-   .map,
-   .form {
+    }
+    
+    .map, {
     width: 50%;
-   }
-}
+    }
+    }
 
 /* start of amenities page */
 
