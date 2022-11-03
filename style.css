@@ -49,7 +49,7 @@ header nav ul {
     padding: 2rem;
     color: white;
     transition: color 200ms ease-in-out;
-    font-size: 21px;
+    font-size: 18px;
 }
 
  nav ul a:hover {
@@ -292,7 +292,7 @@ footer {
 
 .a-one,
 .a-two {
-    width: 46%;
+    width: 48.8%;
     margin-top: 15px;
 }
 
@@ -311,18 +311,11 @@ footer {
     margin-right: 15px;
 }
 
-.portrait-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .a-three,
 .a-four,
 .a-five {
-    width: 30%;
+    width: 32.3%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -333,18 +326,12 @@ footer {
     margin-top: 30px;
 }
 
-.about-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 
 .a-six,
 .a-seven,
 .a-eight {
-    width: 30%;
+    width: 32.3%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -451,7 +438,7 @@ footer {
 .technology,
 .feedback {
     padding: 0 15px;
-    width: 47%;
+    width: 48.7%;
 }
 
 .technology {
