@@ -466,7 +466,6 @@ footer {
 footer {
     background-image: conic-gradient(#26150b, #592608);
     background-image: conic-gradient( right, #26150b 75%, #a65208);
-    display: flex;
     width: 100%;
 }
 
@@ -476,11 +475,10 @@ footer .logo {
 }
 
 footer nav {
-    width: 100%;
-    max-width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 footer nav ul {
@@ -506,14 +504,15 @@ footer nav ul a:hover {
     margin-left: 15px;
 }
 
-.copyright,
 .CART {
-    display: flex;
-    width: 50%;
+    width: 250px;
 }
 
-.CART {
-   width: 20%;
+.copyright {
+    font-size: 16px;
+    display: flex;
+   justify-content: flex-end;
+   margin-right: 30px;
 }
 
 @media screen and (max-width: 640px) {
@@ -730,7 +729,4 @@ footer nav ul a:hover {
         width: 50%;
     }
 
-    footer nav ul {
-        width: 50%;
-    }
 }
