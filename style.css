@@ -33,7 +33,9 @@ header {
 
 header .logo {
     width: 200px;
-    mix-blend-mode: difference;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    /* margin: 1%; */
 }
 
 header nav {
@@ -62,11 +64,11 @@ header nav ul {
 }
 
 p {
-    margin-left: 1%;
-    margin-right: 1%;
+    padding: 2%;
 }
 
 h3 {
+    margin-top: 1%;
     padding: 1%;
     text-align: center;
     font-weight: bold;
@@ -91,15 +93,13 @@ h3 {
     text-align: center;
 }
 
-.one {
-    background-image: radial-gradient(bisque, tan);
-    margin-left: 1%;
-    margin-top: 1%;
+.group1 {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.two {
-    margin-left: 1%;
-    margin-right: 1%;
+.one {
+    background-image: radial-gradient(bisque, tan);
 }
 
 .three {
@@ -139,93 +139,79 @@ footer {
 @media screen and (max-width: 640px) {
      .one {
         width: 100%;
-        margin-right: 15px;     
-     }
-
-     .two {
-        width: 100%;
-        margin-right: 15px;
-        margin-top: 15px;
      }
 
      .four {
         width: 100%;
-        margin-right: 15px; 
+        margin-right: 1%; 
      }
 
      .five {
         width: 100%;
-        margin-right: 15px; 
+        margin-right: 1%; 
      }
 }
 
 /* start of about page */
 
-.a-one,
-.a-two {
-    width: 48.8%;
-    margin-top: 15px;
-}
-
-.a-one p {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.a-one h3 {
-    margin-left: 10px;
-}
 
 .a-one {
-    margin-left: 15px;
+    margin-left: 1%;
+    margin-right: 1%;
     background-image: radial-gradient(bisque, tan);
 }
 
+.works {
+    background-image: radial-gradient(bisque, tan);
+    margin-left: 1%;
+}
+
+.a-one,
+.works,
 .a-two {
-    margin-left: 15px;
+    width: 32%;
+    margin-top: 1%;
+   
 }
 
 .brown-disk {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.a-three,
+.a-four,
+.a-five {
+    width: 32%;
+    margin-top: 1%;
 }
 
 .a-three {
-    margin-left: 15px;
-}
-
-.a-three,
-.a-four,
-.a-five {
-    width: 32.3%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .a-four {
-    margin-left: 15px;
-    margin-right: 15px ;
-    margin-top: 30px;
+    margin-right: 1%;
 }
-
 
 
 .a-six,
 .a-seven,
 .a-eight {
-    width: 32.3%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 32%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .a-six {
-    margin-left: 15px;
+    margin-left: 1%;
 }
 
 .a-seven {
-    margin-left: 15px;
-    margin-right: 15px ;
+    margin-left: 1%;
+    margin-right: 1%;
     background-image: radial-gradient(bisque, tan);
 }
 
@@ -237,20 +223,6 @@ footer {
     background-image: radial-gradient(bisque, tan);
 }
 
-.a-six :first-child {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.a-seven :first-child {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.a-eight :first-child {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 @media screen and (max-width: 640px) {
    .brown-disk {
@@ -287,126 +259,6 @@ footer {
     margin-left: 18px;
    }
 
-}
-
-/* start of about page */
-
-.a-one,
-.a-two {
-    width: 48.8%;
-    margin-top: 15px;
-}
-
-.a-one {
-    margin-left: 15px;
-    background-image: radial-gradient(bisque, tan);
-}
-
-.a-two {
-    margin-left: 15px;
-}
-
-.brown-disk {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-
-.a-three,
-.a-four,
-.a-five {
-    width: 32.3%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.a-four {
-    margin-left: 15px;
-    margin-right: 15px ;
-}
-
-
-
-.a-six,
-.a-seven,
-.a-eight {
-    width: 32.3%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.a-seven {
-    margin-left: 15px;
-    margin-right: 15px ;
-    background-image: radial-gradient(bisque, tan);
-}
-
-.a-six {
-    background-image: radial-gradient(bisque, tan);
-}
-
-.a-eight {
-    background-image: radial-gradient(bisque, tan);
-}
-
-.a-six :first-child {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.a-seven :first-child {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.a-eight :first-child {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-@media screen and (max-width: 640px) {
-   .brown-disk {
-    margin-left: 20px;
-    margin-right: 4px;
-    margin-top: 10px;
-   }
-
-   .a-three,
-   .a-four {
-    width: 44%;
-   }
-
-   .a-three {
-    margin-left: 18px;
-   }
-
-   .a-four {
-    margin-top: 15px;
-   }
-
-   .a-five {
-    width: 50%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-   }
-
-   .a-six,
-   .a-seven {
-    width: 44%;
-   }
-
-   .a-six {
-    margin-left: 18px;
-   }
-
-   .footer-header  {
-    width: 50%;
-   }
-
-   .copyright {
-    width: 50%;
-   }
 }
 
 /* start of experience page */
@@ -435,34 +287,22 @@ footer {
     width: 33.3%;
 }
 
-.technology,
-.feedback {
-    padding: 0 15px;
-    width: 48.7%;
-}
 
 .technology {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 15px;
-    margin-top: 15px;
-    max-width: 50%;
-    margin-bottom: 15px;
-}
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 1%;
+} 
+
 
 .feedback {
     background-image: radial-gradient(bisque, tan);
-    margin-left: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;   
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 1%;  
 }
 
-.texhnology :first-child {
-    text-align: center;
-}
-
-.text :first-child {
-    text-align: center;
-}
 
 footer {
     background-image: conic-gradient(#26150b, #592608);
@@ -472,7 +312,9 @@ footer {
 
 footer .logo {
     width: 200px;
-    mix-blend-mode: difference;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-top: 1%;
 }
 
 footer nav {
@@ -547,49 +389,65 @@ footer nav ul a:hover {
 
 .explore {
     background-image: radial-gradient(bisque, tan);
-    height: 14rem;
-    }
+}
+
+.tunnel,
+.explore {
+    width: 67%;
+    margin-top: 1%;
+}
+
+.explore {
+    width: 30%;
+    margin-left: 1%;
+}
+
+.tunnel {
+    margin-left: 1%;
+}
     
-    .explore :first-child {
-    text-align: center;
-    }
+.group02 {
+    display: flex;
+}
+
+.map {
+    width: 50%;
+    margin-left: 1.5%;
+    margin-right: 6%;
+    margin-bottom: 1%;
+}
+
+.form {
+    margin-left: 6%;
+    margin-top: 4%;
+   /* background-color: #4a2613; */
+   margin-bottom: 1.5%;
+}
+
+
     
-    .explore p {
-    padding: 15px;
-    }
-    
-    .explore,
-    .tunnel {
-    width: 48.4%;
-    margin: 15px;
-    }
-    
-    .map {
-    margin-left: 15px;
-    margin-right: 70px;
-    }
-    
-    form {
+    /* form {
     max-width: 250px;
-    margin: 30px;
+    margin: 1%;
     font-size: 1.5rem;
     }
     
     .form {
-    margin-top: 50px;
-    }
+    margin-top: 1%;
+    } */
     
-    @media screen and (max-width: 640px) {
-    .tunnel {
-    margin: 0;
-    margin-top: 15px;
-    margin-left: 25px;
-    margin-right: 25px;
+@media screen and (max-width: 640px) {
+.tunnel {
+ margin: 0;
+margin-top: 15px;
+margin-left: 25px;
+margin-right: 25px;
     }
     
     .map, {
     width: 50%;
     }
+
     }
 
 /* start of amenities page */
