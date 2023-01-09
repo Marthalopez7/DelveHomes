@@ -93,13 +93,15 @@ h3 {
     text-align: center;
 }
 
-.group1 {
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 .one {
     background-image: radial-gradient(bisque, tan);
+   
+}
+
+.two {
+    width: 40%;
 }
 
 .three {
@@ -111,6 +113,7 @@ h3 {
 .two {
     width: 48.5%;
     margin-top: 1%;
+    margin-left: 1%;
     margin-bottom: 1%;
 }
 
